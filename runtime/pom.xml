@@ -34,7 +34,7 @@
                 <configuration>
                     <instructions>
                         <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
-                        <Bundle-Description>${project.decription}</Bundle-Description>
+                        <Bundle-Description>${project.description}</Bundle-Description>
                     </instructions>
                 </configuration>
             </plugin>
@@ -43,8 +43,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
             <optional>true</optional>
         </dependency>
         <dependency>
