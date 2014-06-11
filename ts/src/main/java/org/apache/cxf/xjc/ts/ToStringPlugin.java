@@ -100,7 +100,7 @@ public class ToStringPlugin {
         }
 
         final JClass toStringDelegateImpl = outline.getCodeModel()
-            .ref("org.apache.commons.lang.builder.ToStringBuilder");
+            .ref("org.apache.commons.lang3.builder.ToStringBuilder");
         final JClass styleClass = outline.getCodeModel().ref(styleClassName);
         final JFieldRef toStringDelegateStyleParam = styleClass.staticRef(styleFieldName);
         
